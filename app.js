@@ -1,11 +1,11 @@
 let listadenumerosorteados=[];
-let numerolimite=10;
+let numerolimite=100;
 let numerosecreto= gerarnumeroaleatorio();
 let tentativas= 1;
 
 function mensageminicial(){ 
     exibirtextonatela('h1','Jogo do numero secreto');
-    exibirtextonatela('p','Escolha um numero entre 1 e 10');
+    exibirtextonatela('p','Escolha um numero entre 1 e 100');
 }
 
 function exibirtextonatela(tag, texto){
